@@ -1,0 +1,13 @@
+{
+  "name": "Chlock Extention",
+  "description": "Display clock on the toolbar",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["alarms"],
+  "action": {
+    "default_icon": "clock.png"
+  }
+}
